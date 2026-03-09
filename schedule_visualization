@@ -1,0 +1,144 @@
+// ML Systems Schedule - Benchmark 17
+digraph {
+	rankdir=LR size="10,10"
+	subgraph cluster_0 {
+		color=blue label="Subgraph 0
+Granularity: [64, 64, 64]"
+		0 [fillcolor=white style=filled]
+		1 [fillcolor=white style=filled]
+		2 [fillcolor=white style=filled]
+		3 [fillcolor=white style=filled]
+		4 [fillcolor=white style=filled]
+		5 [fillcolor=white style=filled]
+	}
+	subgraph cluster_1 {
+		color=blue label="Subgraph 1
+Granularity: [64, 64, 64]"
+		6 [fillcolor=white style=filled]
+		7 [fillcolor=white style=filled]
+		8 [fillcolor=white style=filled]
+		9 [fillcolor=white style=filled]
+		10 [fillcolor=gold style=filled]
+		11 [fillcolor=white style=filled]
+	}
+	subgraph cluster_2 {
+		color=blue label="Subgraph 2
+Granularity: [64, 64, 64]"
+		12 [fillcolor=white style=filled]
+		13 [fillcolor=white style=filled]
+		14 [fillcolor=white style=filled]
+		15 [fillcolor=white style=filled]
+		16 [fillcolor=white style=filled]
+		17 [fillcolor=white style=filled]
+	}
+	subgraph cluster_3 {
+		color=blue label="Subgraph 3
+Granularity: [128, 128, 64]"
+		18 [fillcolor=white style=filled]
+		19 [fillcolor=white style=filled]
+	}
+	subgraph cluster_4 {
+		color=blue label="Subgraph 4
+Granularity: [64, 64, 64]"
+		20 [fillcolor=gold style=filled]
+		21 [fillcolor=white style=filled]
+		22 [fillcolor=white style=filled]
+		23 [fillcolor=white style=filled]
+		24 [fillcolor=white style=filled]
+		25 [fillcolor=white style=filled]
+		26 [fillcolor=white style=filled]
+		27 [fillcolor=white style=filled]
+		28 [fillcolor=white style=filled]
+		29 [fillcolor=white style=filled]
+		30 [fillcolor=gold style=filled]
+		31 [fillcolor=white style=filled]
+		32 [fillcolor=white style=filled]
+		33 [fillcolor=white style=filled]
+		34 [fillcolor=white style=filled]
+		35 [fillcolor=gold style=filled]
+		36 [fillcolor=gold style=filled]
+		37 [fillcolor=gold style=filled]
+		38 [fillcolor=gold style=filled]
+		39 [fillcolor=gold style=filled]
+	}
+	subgraph cluster_5 {
+		color=blue label="Subgraph 5
+Granularity: [128, 128, 64]"
+		40 [fillcolor=white style=filled]
+		41 [fillcolor=white style=filled]
+	}
+	subgraph cluster_6 {
+		color=blue label="Subgraph 6
+Granularity: [64, 64, 64]"
+		42 [fillcolor=white style=filled]
+		43 [fillcolor=white style=filled]
+		44 [fillcolor=white style=filled]
+		45 [fillcolor=gold style=filled]
+		46 [fillcolor=gold style=filled]
+		47 [fillcolor=gold style=filled]
+	}
+	subgraph cluster_7 {
+		color=blue label="Subgraph 7
+Granularity: [64, 64, 64]"
+		48 [fillcolor=gold style=filled]
+		49 [fillcolor=gold style=filled]
+		50 [fillcolor=white style=filled]
+		51 [fillcolor=white style=filled]
+		52 [fillcolor=white style=filled]
+	}
+	subgraph cluster_8 {
+		color=blue label="Subgraph 8
+Granularity: [64, 64, 64]"
+		53 [fillcolor=white style=filled]
+		54 [fillcolor=white style=filled]
+		55 [fillcolor=gold style=filled]
+		56 [fillcolor=gold style=filled]
+		57 [fillcolor=gold style=filled]
+	}
+	subgraph cluster_9 {
+		color=blue label="Subgraph 9
+Granularity: [128, 128, 64]"
+		58 [fillcolor=gold style=filled]
+		59 [fillcolor=gold style=filled]
+	}
+	subgraph cluster_10 {
+		color=blue label="Subgraph 10
+Granularity: [128, 128, 64]"
+		60 [fillcolor=white style=filled]
+		61 [fillcolor=white style=filled]
+		62 [fillcolor=white style=filled]
+	}
+	subgraph cluster_11 {
+		color=blue label="Subgraph 11
+Granularity: [64, 64, 64]"
+		63 [fillcolor=white style=filled]
+		64 [fillcolor=white style=filled]
+		65 [fillcolor=gold style=filled]
+		66 [fillcolor=gold style=filled]
+		67 [fillcolor=white style=filled]
+	}
+	subgraph cluster_12 {
+		color=blue label="Subgraph 12
+Granularity: [64, 64, 64]"
+		68 [fillcolor=white style=filled]
+		69 [fillcolor=gold style=filled]
+		70 [fillcolor=white style=filled]
+		71 [fillcolor=white style=filled]
+		72 [fillcolor=white style=filled]
+	}
+	subgraph cluster_13 {
+		color=blue label="Subgraph 13
+Granularity: [64, 64, 64]"
+		73 [fillcolor=white style=filled]
+		74 [fillcolor=white style=filled]
+		75 [fillcolor=gold style=filled]
+		76 [fillcolor=gold style=filled]
+		77 [fillcolor=gold style=filled]
+	}
+	subgraph cluster_14 {
+		color=blue label="Subgraph 14
+Granularity: [128, 128, 64]"
+		78 [fillcolor=gold style=filled]
+		79 [fillcolor=gold style=filled]
+	}
+}
